@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="topnav">
+        <div>
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+        </div>
+        <div class="inputDiv">
+            <input type="search" id="myInput" onkeyup="myFunction()" placeholder="Search.." name="search">
+        </div>
+    </div>
+    <section id="img">
+        <div class="img1">
+            <div onclick="iphoneData()" id="onDiv">
+                <img  src="image/images (2).jfif" alt="" id="iphoneImg">
+                <h1 id='headOne'>Iphone</h1>
+            </div>
+            <div onclick="redmiData()" id="onDiv" class="redmiDiv">
+                <img src="image/download.jfif" alt="" id="redmiImg">
+                <h1 id="headTwo">Redmi 7A</h1>
+            </div>
+            <div onclick="oppoData()" id="onDiv" class="oppoDiv">
+                <img src="image/Download-oppo-k3-wallpapers.jpg" alt="" id="oppoImg">
+                <h1 id="headThree">OppoK3</h1>
+            </div>
+        </div>
+        <div class="img2">
+            <div onclick="pocoData()" id="onDiv">
+                <img src="image/download (1).jfif" alt="" id="pocoImg">
+                <h1 id="headFour">Poco</h1>
+            </div>            
+            <div onclick="vivoData()" id="onDiv">
+                <img src="image/images.jfif" alt="" id="vivoImg">
+                <h1 id="headFive">VivoY19</h1>
+            </div>
+            <div onclick="oneplusData()" id="onDiv">
+                <img src="image/images (1).jfif" alt=""  id="oneplusImg">
+                <h1 id="headSix">Oneplus</h1>
+            </div>
+        </div>
+    </section>
+
+        <div id="popUp">
+        </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

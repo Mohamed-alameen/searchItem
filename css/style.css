@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  overflow: hidden;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: rgb(181 170 170); */
+  background-image: url('../image/download\ \(2\).jfif');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.topnav {
+  background-color: #349fe2;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  padding: 12px 16px;
+  margin: 0px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background: rgb(84, 84, 136);
+  color: white;
+}
+
+.topnav input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+img {
+  width: 320px;
+  border-radius: 5px;
+}
+
+.img1,
+.img2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+#vivoImg,
+#oneplusImg {
+  width: 350px;
+}
+
+#iphoneImg {
+  width: 300px;
+  text-align: center;
+}
+
+.img1,
+.img2 h1 {
+  text-align: center;
+  /* margin-top: 12px; */
+  padding-bottom: 12px;
+}
+
+section {
+  position: relative;
+}
+
+#onDiv {
+  /* width: 380px; */
+  background-color: #fff;
+  border-radius: 4px;
+  /* padding-bottom: 50px ; */
+}
+
+#onDiv:hover {
+  /* background-image: url(../image/download.jfif);
+  background-position: center; */
+  background-color: rgb(36, 35, 35);
+  transition: ease-in-out;
+  color: #fff;
+}
+
+.redmiDiv,
+.oppoDiv {
+  padding-bottom: 12px;
+}
+
+.iphoneShow {
+  visibility: hidden;
+}
+
+.iphoneShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 289px;
+  width: 450px;
+  z-index: 1;
+  font-size: 14px;
+  position: absolute;
+  /* top: 370px;
+  left: 43px; */
+  top: 218px;
+  right: 402px;
+  border-radius: 5px;
+  /* padding: 10px; */
+  text-align: center;
+}
+
+.redmiShow {
+  visibility: hidden;
+}
+
+/* .redmiShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 189px;
+  width: 350px;
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  right: 518px;
+  border-radius: 5px;
+  text-align: center;
+
+} */
+
+.oppoShow {
+  visibility: hidden;
+}
+
+/* .oppoShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 189px;
+  width: 350px;
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  right: 53px;
+  border-radius: 5px;
+  text-align: center;
+
+} */
+
+.pocoShow {
+  visibility: hidden;
+}
+
+/* .pocoShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 189px;
+  width: 350px;
+  z-index: 1;
+  position: absolute;
+  top: 70px;
+  left: 43px;
+  border-radius: 5px;
+  text-align: center;
+
+} */
+
+.vivoShow {
+  visibility: hidden;
+}
+
+/* .vivoShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 189px;
+  width: 360px;
+  z-index: 1;
+  position: absolute;
+  top: 370px;
+  right: 515px;
+  border-radius: 5px;
+  text-align: center;
+
+} */
+
+.oneplusShow {
+  visibility: hidden;
+}
+
+/* .oneplusShows {
+  visibility: visible;
+  background-color: #fff;
+  height: 189px;
+  width: 360px;
+  z-index: 1;
+  position: absolute;
+  top: 370px;
+  right: 50px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} */
+
+input {
+  margin: 8px 0px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #3742fa;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-top: 20px;
+}
+
+#popUp {
+  padding:32px;
+  /* position: relative; */
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 10px;
+}
+
+.h1 {
+  color: green;
+  font-size: 38px;
+}
+
+#popUp p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#popUp input {
+  padding: 10px;
+  /* border: 3px solid #555; */
+   font-size: 24px;
+  
+   margin-top: 15px;
+}
+
+#popUp input:focus {
+  padding: 10px;
+  border: 3px solid #555;
+}
+
+.cancel {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background-color: #fff;
+    border: none;
+    /* font-size: 18px; */
+}
+
+/* #popUp h1,p{
+  visibility: hidden;
+} */
+
+.popupRe {
+  visibility: hidden;
+}
+
+#myInput{
+  overflow: none;
+}
+
+@media screen and (max-width: 900px) {
+  
+
+  #onDiv {
+    margin-bottom: 55px;
+  }
+
+  /* #popUp{
+    visibility: hidden;
+  } */
+}
+
+
+
+@media screen and (max-width: 600px) {
+  *{
+    overflow: scroll;
+  }
+  body{
+    width: 100vw;
+  }
+  .inputDiv{
+    border: none;
+  }
+
+  .topnav input {
+    margin-top: 5px;
+    padding: 12px 12px;
+    width: 120px;
+  }
+
+  .img1,.img2{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #onDiv{
+    width: 320px;
+    margin: 10px auto;
+  }
+
+  img{
+    width: 320px;
+  }
+
+  #vivoImg,#oneplusImg{
+    width: 320px;
+  }
+
+  #iphoneImg{
+    /* padding-right: 32px; */
+    width: 320px;
+  }
+
+  #popUp {
+    padding: 20px;
+    /* position: relative; */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 10px;
+  }
+  .iphoneShows {
+    height: 320px;
+    width: 350px;
+    font-size: 8px;
+    position: absolute;
+    left: 80px;
+    top: 82px;
+
+  }
+  #popUp input{
+    padding: 5px;
+  }
+}
